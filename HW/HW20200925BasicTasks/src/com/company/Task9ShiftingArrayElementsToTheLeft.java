@@ -9,6 +9,7 @@ public class Task9ShiftingArrayElementsToTheLeft {
     // shiftLeft([1]) → [1]
     //public int[] shiftLeft(int[] nums) { }
 
+
     public static int[] shiftLeft(int[] nums) {
         if(nums!=null) {
             int lastIndex = nums[0];

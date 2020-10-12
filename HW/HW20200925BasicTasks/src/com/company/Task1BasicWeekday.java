@@ -3,9 +3,8 @@ package com.company;
 public class Task1BasicWeekday {
 
 
-    public static void main(String[] args) {
-
-    }
+  /*  public static void main(String[] args) {
+    }*/
 
     //Параметр weekday имеет значение true если это рабочий день недели,
     // и параметр vacation имеет значение true если у нас каникулы.
@@ -26,7 +25,6 @@ public class Task1BasicWeekday {
     }*/
 
     public static boolean sleepIn(boolean weekday, boolean vacation){
-
         return !weekday||vacation;
     }
 }

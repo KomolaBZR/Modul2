@@ -18,7 +18,6 @@ public class Task6ReturnSumOfFirstTwoElementsOfArray {
             } else { return 0;
             }
         }else return 0;
-
     }
 
 }

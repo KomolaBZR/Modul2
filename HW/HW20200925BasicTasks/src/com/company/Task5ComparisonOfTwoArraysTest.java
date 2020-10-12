@@ -26,7 +26,4 @@ class Task5ComparisonOfTwoArraysTest {
         assertFalse(expected);
     }
 
-
-
-
 }

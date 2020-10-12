@@ -12,6 +12,7 @@ public class Task3BasicEndUppercase {
     //Написать код функции: public String endUp(String str) { }
 
 
+
         public static String endUp(String str) {
             if ((str.length() - 3) > 0){
                 return str.substring(0, str.length() - 3).concat(str.substring(str.length() - 3).toUpperCase());

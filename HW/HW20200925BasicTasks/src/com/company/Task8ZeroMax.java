@@ -12,8 +12,6 @@ public class Task8ZeroMax {
     //public int[] zeroMax(int[] nums) {}
 
 
-
-
         public static int[] zeroMax(int[] nums) {
             if(nums!=null) {
                 int i = nums.length - 1;

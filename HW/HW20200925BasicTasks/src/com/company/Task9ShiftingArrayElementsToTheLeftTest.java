@@ -34,7 +34,6 @@ class Task9ShiftingArrayElementsToTheLeftTest {
         int[] expected = {1};
 
         assertEquals(Arrays.toString(expected),Arrays.toString(Task9ShiftingArrayElementsToTheLeft.shiftLeft(nums)));
-
     }
 
     @Test

@@ -18,7 +18,6 @@ class Task10ConcatenationTwoStringsWithoutTheirFirstCharTest {
         assertEquals(expected1,s1);
         assertEquals(expected2,s2);
         assertEquals(expected3,s3);
-
     }
 
 }

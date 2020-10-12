@@ -8,6 +8,7 @@ public class Task11ReturnMiddleTwoElementsInString {
     // middleTwo("Practice") → "ct"
     //public String middleTwo(String str) { }
 
+
     public static String middleTwo(String str) {
         if(str.length()>2&&str.length()%2==0){
             return str.substring(str.length()/2-1,str.length()/2+1);
