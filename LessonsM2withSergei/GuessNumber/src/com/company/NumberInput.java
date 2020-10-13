@@ -1,2 +1,5 @@
-package com.company;public interface NumberInput {
+package com.company;
+
+public interface NumberInput {
+    int getNextNumber();
 }

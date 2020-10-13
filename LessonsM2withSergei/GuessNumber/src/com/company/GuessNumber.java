@@ -39,7 +39,9 @@ public class GuessNumber {
     }
 
     public static void main(String[] args){
-        
-        game();
+
+        NumberInput input=new KeyboardInput();
+        GuessNumber number= new GuessNumber(input);
+        number.game();
     }
 }

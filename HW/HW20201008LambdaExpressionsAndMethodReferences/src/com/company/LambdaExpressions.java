@@ -59,10 +59,16 @@ public class LambdaExpressions {
 
 
         //12.	Given a string, return true, if its length is more than 3, false otherwise: "ab" -> false, "abc" -> true
-
+        Function<String, Boolean> f12 = s -> s.length() > 3;
+        System.out.println("Task12: (\"ab\" -> false, \"abc\" -> true) :" + "ab ->"+ f12.apply("ab")+", abc -> " + f12.apply("abc"));
 
 
         //13.	Given a string and a number x. Return true, if length of string is more than x, false otherwise. Hint: BiPredicate.
+        BiPredicate<String, Integer> f13 = (s, x) -> s.length()>x;
+        System.out.println("Task13: " + "1. String more than x"+ "homeworks" +" vs x = 5 -> "
+                +f13.test("homeworks",5)+
+                "\n  2. String more than x"+ "task" +" vs x = 5 -> "
+                +f13.test("task",5));
 
 
 
