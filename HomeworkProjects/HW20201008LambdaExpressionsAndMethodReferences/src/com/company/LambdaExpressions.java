@@ -3,6 +3,7 @@ package com.company;
 import java.time.LocalDate;
 import java.util.function.*;
 
+
 public class LambdaExpressions {
     public static void main(String[] args) {
         Function<Integer, Integer> f1 = (a) -> {
