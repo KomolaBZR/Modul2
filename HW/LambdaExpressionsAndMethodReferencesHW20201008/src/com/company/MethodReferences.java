@@ -1,4 +1,5 @@
 package com.company;
+
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Supplier;
@@ -43,3 +44,4 @@ public class MethodReferences {
         return (s.length() % 2 == 0) ? s.substring(0, s.length() / 2) : "";
     }
 }
+
