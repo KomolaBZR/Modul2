@@ -63,6 +63,7 @@ public class LambdaExpressions {
                 f10.apply(12345));
 
 
+
         //11.Given a number, return true if it is even, false otherwise: 6 -> true, 25 -> false
 
         Predicate<Integer> f11=(a)-> a%2==0;

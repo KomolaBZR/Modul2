@@ -14,6 +14,7 @@ public class MethodReferences {
         printer.accept("Print this string");
 
 
+
         //2. Given a string, return a lower case string
 
         Function<String,String> task2=String::toLowerCase;
