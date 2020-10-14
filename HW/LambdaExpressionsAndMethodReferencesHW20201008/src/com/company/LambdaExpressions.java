@@ -82,6 +82,5 @@ public class LambdaExpressions {
                 +f13.test("homeworks",5)+
                 "\n  2. String more than x"+ "task" +" vs x = 5 -> "
                 +f13.test("task",5));
-
     }
 }

@@ -1,6 +1,5 @@
 package com.company;
 
-
 public class Employee {
     private String name;
     private int salary;
@@ -9,7 +8,6 @@ public class Employee {
         this.name = name;
         this.salary = salary;
     }
-
 
     public String getName() {
         return name;
