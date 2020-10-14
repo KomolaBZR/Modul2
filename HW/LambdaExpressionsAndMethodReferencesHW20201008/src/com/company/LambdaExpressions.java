@@ -3,6 +3,7 @@ package com.company;
 import java.time.LocalDate;
 import java.util.function.*;
 
+
 public class LambdaExpressions {
     public static void main(String[] args) {
                 // 1.Given an integer, return a power of integer: 5 -> 25
@@ -66,7 +67,6 @@ public class LambdaExpressions {
 
                 Predicate<Integer> f11=(a)-> a%2==0;
                 System.out.println("Task11 (even number->true, odd number->false): "+ "6 -> "+f11.test(6)+", 25-> "+ f11.test(25));
-
 
 
                 //12.Given a string, return true, if its length is more than 3, false otherwise: "ab" -> false, "abc" -> true

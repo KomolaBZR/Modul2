@@ -18,12 +18,10 @@ public class MethodReferences {
         Function<String,String> task2=String::toLowerCase;
         System.out.println("Task2: "+task2.apply("LOWERCAse"));
 
-
         //3. Given a number, return a square root from the number
         Function<Integer,Double> task3=Math::sqrt;
         System.out.println("Task3: (50)^1/2 -> "+ task3.apply(50));
         System.out.println("Task3: (25)^1/2 -> "+ task3.apply(25));
-
 
         //4. Implement solution 7 from above as a method reference
 
