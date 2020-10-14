@@ -5,6 +5,7 @@ import java.util.function.Function;
 import java.util.function.Supplier;
 
 public class MethodReferences {
+
     public static void main(String[] args) {
 
         //1. Print a given string
@@ -37,7 +38,6 @@ public class MethodReferences {
         System.out.println("Task 5 (1. Supplier): " + supplier.get());
         Function<Employee, Integer> task5 = Employee::getSalary;
         System.out.println("Task 5 (2. Function): " + task5.apply(employee));
-
     }
 
     public static String lambdaExpressionsTask7(String s) {
