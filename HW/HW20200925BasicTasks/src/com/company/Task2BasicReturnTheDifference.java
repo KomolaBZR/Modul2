@@ -17,14 +17,11 @@ public class Task2BasicReturnTheDifference {
 
         int res=0;
         int diff21=21;
-
             if (n <= diff21) {
                 res = diff21 - n;
             } else {
                 res = (n - diff21) * 2;
             }
-
-
         return res;
     }
 

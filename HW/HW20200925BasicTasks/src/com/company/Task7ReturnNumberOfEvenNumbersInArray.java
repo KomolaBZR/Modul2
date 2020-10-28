@@ -9,7 +9,6 @@ public class Task7ReturnNumberOfEvenNumbersInArray {
     //public int countEvens(int[] nums) { }
 
     public static int countEvens(int[] nums) {
-
         int counterEvenNum=0;
         if(nums!=null){
         for (int i=0; i<nums.length;i++){

@@ -46,8 +46,6 @@ class Task11ReturnMiddleTwoElementsInStringTest {
         assertEquals(expected1,s1);
         assertEquals(expected2,s2);
 
-
     }
-
 
 }

@@ -30,6 +30,4 @@ class Task2BasicReturnTheDifferenceTest {
         assertEquals(expected2,res2);
     }
 
-
-
 }

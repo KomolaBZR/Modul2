@@ -41,9 +41,7 @@ class Task8ZeroMaxTest {
         int[] expected = {2, 1, 3};
 
         assertEquals(Arrays.toString(expected),Arrays.toString(Task8ZeroMax.zeroMax(nums)));
-
     }
-
 
     @Test
     public void testZeroMax_Null(){
