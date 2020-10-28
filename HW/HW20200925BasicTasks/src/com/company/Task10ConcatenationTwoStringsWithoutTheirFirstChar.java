@@ -11,5 +11,4 @@ public class Task10ConcatenationTwoStringsWithoutTheirFirstChar {
     public static String nonStart(String a, String b) {
         return a.substring(1).concat(b.substring(1));
     }
-
 }

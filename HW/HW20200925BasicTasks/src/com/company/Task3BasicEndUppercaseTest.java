@@ -15,14 +15,12 @@ class Task3BasicEndUppercaseTest {
         String expected2= "hi thERE";
         assertEquals(expected1,s1);
         assertEquals(expected2,s2);
-
     }
     @Test
     public void testBasicEndUppercase_TheLengthOftheStringIsSmallerThan3Char(){
         String s1=Task3BasicEndUppercase.endUp("hi");
         String expected1= "HI";
         assertEquals(expected1,s1);
-
     }
 
 

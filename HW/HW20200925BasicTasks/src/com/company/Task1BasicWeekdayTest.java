@@ -25,7 +25,6 @@ class Task1BasicWeekdayTest {
         boolean expected= Task1BasicWeekday.sleepIn(weekday, vacation);
 
         assertTrue(expected);
-
     }
     @Test
     public void testWeekDayWorkingVacation(){
@@ -36,7 +35,6 @@ class Task1BasicWeekdayTest {
         boolean expected= Task1BasicWeekday.sleepIn(weekday, vacation);
 
         assertTrue(expected);
-
     }
     @Test
     public void testWeekDayWeekendNotVacation(){
@@ -46,7 +44,6 @@ class Task1BasicWeekdayTest {
         boolean expected= Task1BasicWeekday.sleepIn(weekday, vacation);
 
         assertTrue(expected);
-
     }
 
 }

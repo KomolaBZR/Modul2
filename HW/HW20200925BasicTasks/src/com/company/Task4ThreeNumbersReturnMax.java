@@ -20,9 +20,7 @@ public class Task4ThreeNumbersReturnMax {
             max=b;
         }else if(max<c&&c>b){
            max=c;
-        }else {
-            return max;
-        }
+        }else { return max;}
         return max;
     }
 }

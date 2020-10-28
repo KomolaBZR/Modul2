@@ -14,5 +14,4 @@ public class Task5ComparisonOfTwoArrays {
             return true;
         }else return false;
     }
-
 }
